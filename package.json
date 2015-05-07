@@ -28,6 +28,7 @@
     }
   ],
   "dependencies": {
+    "archy": "^1.0.0",
     "array-uniq": "^1.0.2",
     "bower": "^1.4.1",
     "bower-endpoint-parser": "^0.2.2",
