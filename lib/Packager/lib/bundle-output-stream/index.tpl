@@ -9,14 +9,14 @@
 	{%- if stylesheet.href %}
 	<link rel="stylesheet" type="text/css" href="{{ stylesheet.href }}"/>
 	{%- else %}
-	<style>{{ stylesheet.body }}</style>
+	<style>{{ stylesheet.contents }}</style>
 	{% endif -%}
 	{% endfor -%}
 	{%- for script in scripts %}
 	{%- if script.src %}
 	<script src="{{ script.src }}"></script>
 	{%- else %}
-	<script>{{ script.body }}</script>
+	<script>{{ script.contents }}</script>
 	{% endif -%}
 	{%- endfor %}
 </head>
