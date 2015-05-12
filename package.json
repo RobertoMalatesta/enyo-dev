@@ -34,6 +34,8 @@
     "bower-endpoint-parser": "^0.2.2",
     "clean-css": "^3.1.8",
     "clone": "^1.0.2",
+    "combine-source-map": "^0.6.1",
+    "convert-source-map": "^1.1.0",
     "defaults": "^1.0.2",
     "defined": "^1.0.0",
     "detective": "^4.0.1",
