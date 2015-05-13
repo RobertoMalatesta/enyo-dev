@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>{{ title }}</title>
+	<title>{{ "[DEVELOPMENT] " if devMode }}{{ title }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{%- for stylesheet in stylesheets %}
 	{%- if stylesheet.href %}
-	<link rel="stylesheet" type="text/css" href="{{ stylesheet.href }}"/>
+	<link rel="stylesheet" href="{{ stylesheet.href }}"/>
 	{%- else %}
 	<style>{{ stylesheet.contents }}</style>
 	{% endif -%}
